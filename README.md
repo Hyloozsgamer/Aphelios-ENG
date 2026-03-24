@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Status-Initializing...-blueviolet?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Season-2026-teal?style=for-the-badge" alt="Season">
   <img src="https://img.shields.io/badge/Role-HyperCarry-red?style=for-the-badge" alt="Role">
-  <img src="https://img.shields.io/badge/Level-LCK%20Analysis-gold?style=for-the-badge" alt="Rank">
+  <img src="https://img.shields.io/badge/Strategy-LCK%20Coach%20Tier-gold?style=for-the-badge" alt="Rank">
 </p>
 
 ---
@@ -16,11 +16,9 @@
 const MatchProtocol = {
     objective: "Symmetry of weapon rotation for 100% high-tier outcome",
     micro: "Buffering A-click cancels, weapon cooldown buffering",
-    macro: "Wave 3 crash, Cheater Recall, Min 8 herald priority",
-    coach_tip: "Space spacing vs auto spacing. Keep the edge."
+    macro: "Wave 3 crash, Cheater Recall, Space Spacing",
+    coach_tip: "Do not react to the game. Dictate the flow with the cycle."
 };
-
-console.log(`[SYS] Alune: "Everything according to the flow of the moon."`);
 ```
 
 ---
@@ -30,7 +28,7 @@ console.log(`[SYS] Alune: "Everything according to the flow of the moon."`);
 2.  [Matriz de Matchups Ampliada (All Bot Lanes)](#-2-matriz-de-matchups)
 3.  [Matriz de Sinergias (All Supports Tiers)](#-3-matriz-de-sinergias)
 4.  [Macro-Gaming & Kiting (Coach Protocol)](#-4-macro-gaming--kiting)
-5.  [Protocolos de Combate (Consejos del Analista GM)](#-5-protocolos-de-combate)
+5.  [Ejecución Mecánica (Combos advanced)](#-5-ejecucion-mecanica)
 
 ---
 
@@ -38,117 +36,93 @@ console.log(`[SYS] Alune: "Everything according to the flow of the moon."`);
 
 El orden de las armas es lo que separa a un usuario de Aphelios de un **System Master**. 
 
-```mermaid
-graph TD
-    classDef main fill:#d4af37,stroke:#333,stroke-width:2px,color:#000;
-    classDef red fill:#ff4d4d,stroke:#333,stroke-width:1px,color:#fff;
-    classDef green fill:#4caf50,stroke:#333,stroke-width:1px,color:#fff;
-    classDef purple fill:#9c27b0,stroke:#333,stroke-width:1px,color:#fff;
-    classDef blue fill:#2196f3,stroke:#333,stroke-width:1px,color:#fff;
-    classDef white fill:#ffffff,stroke:#333,stroke-width:1px,color:#000;
-
-    Severum["<img src='https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Aphelios_Severum.png' width='18'> SEVERUM"]
-    Calibrum["<img src='https://static.wikia.nocookie.net/leagueoflegends/images/0/00/Aphelios_Calibrum.png' width='18'> CALIBRUM"]
-    Gravitum["<img src='https://static.wikia.nocookie.net/leagueoflegends/images/4/4b/Aphelios_Gravitum.png' width='18'> GRAVITUM"]
-    Infernum["<img src='https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Aphelios_Infernum.png' width='18'> INFERNUM"]
-    Crescendum["<img src='https://static.wikia.nocookie.net/leagueoflegends/images/8/84/Aphelios_Crescendum.png' width='18'> CRESCENDUM"]
-
-    class Severum red;
-    class Calibrum green;
-    class Gravitum purple;
-    class Infernum blue;
-    class Crescendum white;
-
-    Severum --> Calibrum;
-    Calibrum --> Gravitum;
-    Gravitum --> Infernum;
-    Infernum --> Severum;
-    Infernum --> Crescendum;
-    Crescendum --> Severum;
-
-    subgraph Combos_Core
-        style Combos_Core fill:#1a1a1a,stroke:#444,color:#fff
-        Calibrum -.-> |"Burst"| Crescendum
-        Severum -.-> |"Chakram Stack"| Crescendum
-    end
-```
+<div align="center">
+  <h3>🔄 Flujo de Rotación Óptima</h3>
+  <table border="0">
+    <tr>
+      <td align="center"><img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Aphelios_Severum.png" width="45"><br><b>Severum</b></td>
+      <td>➡️</td>
+      <td align="center"><img src="https://static.wikia.nocookie.net/leagueoflegends/images/0/00/Aphelios_Calibrum.png" width="45"><br><b>Calibrum</b></td>
+      <td>➡️</td>
+      <td align="center"><img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4b/Aphelios_Gravitum.png" width="45"><br><b>Gravitum</b></td>
+      <td>➡️</td>
+      <td align="center"><img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Aphelios_Infernum.png" width="45"><br><b>Infernum</b></td>
+      <td>➡️</td>
+      <td align="center"><img src="https://static.wikia.nocookie.net/leagueoflegends/images/8/84/Aphelios_Crescendum.png" width="45"><br><b>Crescendum</b></td>
+      <td>➡️</td>
+      <td align="center"><img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Aphelios_Severum.png" width="45"><br><b>Severum</b></td>
+    </tr>
+  </table>
+  <p><i>Sinergia Máxima: Calibrum + Crescendum (Torretas Sniper) | Severum + Crescendum (Chakram Stacking)</i></p>
+</div>
 
 ---
 
-## 📊 2. Matriz de Matchups Ampliada (Bot Lanes Meta 2026)
+## 📊 2. Matriz de Matchups Ampliada (Dúos Bot Lanes)
 
-| Duo Bot Enemigo | Dificultad | Support Counter | Win Rate | Micro-Strategy (Coach Note) |
+Análisis avanzado de carriles inferiores para el Draft y Control de Fase.
+
+| Bot Lane Enemiga | Riesgo | Sinergias Sugeridas | Win Rate | Protocolo de Actuación (Coach) |
 | :--- | :---: | :--- | :---: | :--- |
-| **Lucian + Nami** | 🔴 Alta | Thresh / Braum | 47.1% | **Burst Alert**. Abusar de Calibrum para Poke. Usar Gravitum si Lucian usa E agresiva. |
-| **Zeri + Yuumi** | 🟢 Baja | Nautilus / Pyke | 52.3% | Escalado Libre. Castigar con range Calibrum, Infernum R en teamfight gana la partida. |
-| **Jinx + Lulu** | 🟡 Media | Blitzcrank | 49.5% | Skale similar. Focus en peel. Evitar el dive de su jungla. |
-| **Draven + Leona** | 💀 Extrema | Morgana / Janna | 44.0% | **ZONA DE PELIGRO**. Juega defensivo. Usa Severum para absorber daño y Gravitum para farmear seguro. |
-| **Kai'Sa + Nautilus**| 🟡 Media | Braum / Taric | 50.5% | Evitar trades aislados (Pasiva). Infernum para limpiar oleada y forzarla bajo torre. |
-| **Caitlyn + Lux** | 🔴 Alta | Soraka / Lulu | 46.8% | Te superan en rango. Limpia Wave rápido con Infernum para anular su seige bajo torre. |
-| **Samira + Rell** | 🟡 Media | Alistar / Janna | 51.2% | Mantén `Gravitum Q` lista. Cancela su Ultimate instantáneamente antes de que cargue. |
-| **Ezreal + Karma** | 🟢 Baja | Nami | 53.0% | Minions bloquean su Poke. Carga Crescendum y haz All-In si gastan su CD en minions. |
-| **Xayah + Rakan** | 🟡 Media | Nautilus | 49.8% | Cuidado con su plumas. Gravitum para rootear si Rakan intenta saltar. |
-| **Twitch + Milio** | 🔴 Alta | Blitzcrank | 48.2% | **Sub-Stealth Alert**. No pushees solo sin visión cercana. Controla el mapa. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/1/10/Lucian_OriginalSquare.png" width="25"> **Lucian** + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/a/ac/Blitzcrank_OriginalSquare.png" width="25"> **Nami** | 🔴 ALTA | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/c/c3/Thresh_OriginalSquare.png" width="20"> <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Braum_OriginalSquare.png" width="20"> | 46.5% | No tradear a nivel 2. Mantener distancia con Calibrum. Gravitum si salta agresivo. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/7/7d/Zeri_OriginalSquare.png" width="25"> **Zeri** + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/6/6c/Yuumi_OriginalSquare.png" width="25"> **Yuumi** | 🟢 BAJA | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/d/d2/Nautilus_OriginalSquare.png" width="20"> <img src="https://static.wikia.nocookie.net/leagueoflegends/images/c/c4/Pyke_OriginalSquare.png" width="20"> | 53.2% | Escalado libre. Castigar con Calibrum a rango máximo. Infernum R en teamfight gana solo. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Jinx_OriginalSquare.png" width="25"> **Jinx** + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Lulu_OriginalSquare.png" width="25"> **Lulu** | 🟡 MEDIA | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/a/ac/Blitzcrank_OriginalSquare.png" width="20"> | 50.1% | Evitar trades de 1v1. Focus en peel. Guardar Gravitum para su engage o frenar su buff de velocidad. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/f/f2/Draven_OriginalSquare.png" width="25"> **Draven** + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/ba/Leona_OriginalSquare.png" width="25"> **Leona**| 💀 EXTRA | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/7/79/Morgana_OriginalSquare.png" width="20"> <img src="https://static.wikia.nocookie.net/leagueoflegends/images/3/3f/Janna_OriginalSquare.png" width="20"> | 42.5% | **DANGER**. No empujes la wave. Juega seguro. Usa Severum para curarte de poke. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/3/31/Samira_OriginalSquare.png" width="25"> **Samira** + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Rell_OriginalSquare.png" width="25"> **Rell** | 🟡 MEDIA | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/e/ee/Alistar_OriginalSquare.png" width="20"> | 49.8% | Mantén Gravitum Q listo. Cancela su ultimate instantáneamente. Nunca gastes Infernum R en su W. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/3/35/Caitlyn_OriginalSquare.png" width="25"> **Caitlyn** + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/7/7a/Lux_OriginalSquare.png" width="25"> **Lux** | 🔴 ALTA | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Soraka_OriginalSquare.png" width="20"> | 47.1% | Te zonearán. Limpia la wave con Infernum Rápido para que no te metan bajo torre a recibir poke gratis. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/5/54/Ezreal_OriginalSquare.png" width="25"> **Ezreal** + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/f/f7/Karma_OriginalSquare.png" width="25"> **Karma** | 🟢 BAJA | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Lulu_OriginalSquare.png" width="20"> | 54.0% | Ponerse detrás de minions para bloquear su Poke. Castigar con Crescendum si gastan CDs. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4e/Xayah_OriginalSquare.png" width="25"> **Xayah** + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/b3/Rakan_OriginalSquare.png" width="25"> **Rakan** | 🟡 MEDIA | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/d/d2/Nautilus_OriginalSquare.png" width="20"> | 49.2% | Cuidado con sus plumas en el suelo. Gravitum para rootear si intentan engage con combo R-W. |
 
 ---
 
-## 🤝 3. Matriz de Sinergias (Todos los Supports)
+## 🤝 3. Matriz de Sinergias (Supports Completa)
 
-El rendimiento de Aphelios depende del soporte. Aquí está la clasificación técnica.
-
-### 🌟 Tier Divine (Perfect Match)
-*   **Thresh**: La linterna (W) otorga la movilidad que Aphelios no tiene. `Lantern + Gravitum Root` es un gank mortal.
-*   **Milio**: Aumenta el Rango de `Calibrum` exponencialmente. El rango de Aphelios se vuelve absurdo para zonear.
-
-### 🟢 Tier S (Hyper-Scaling)
-*   **Lulu**: El buff de velocidad de ataque y polimorfismo con `Crescendum` activo es el mayor DPS del juego.
-*   **Nautilus**: Lock-down perfecto. Cadena de CC: `Nautilus R -> Auto -> Gravitum Root`.
-*   **Nami**: Otorga velocidad, daño y curación para sobrevivir trades agresivos en early.
-
-### 🟡 Tier A (Utility / Sustain)
-*   **Braum**: El escudo intercepta projectiles mientras stackeas `Crescendum`. Perfecta defensa.
-*   **Soraka / Sona**: Sustain infinito en línea. Permite tradear continuamente con `Severum` sin miedo a morir.
-*   **Janna**: Protección contra assasins y poke continuo.
-*   **Morgana**: `Black Shield` evita que te rooteen o enganchen si estás en posición de `Crescendum` cercano.
-
-### 🔴 Tier B/C (Niche / Risky)
-*   **Yuumi**: Te deja solo en fase de líneas. Muy débil contra hooks (Blitz/Nautilus).
-*   **Lux / Brand / Zyra (Mages)**: Roban oro de la línea y no aportan peel defensivo. Dependes 100% de tu posicionamiento.
+| Support | Icono | Tier | Tipo | Explicación Estratégica |
+| :--- | :---: | :---: | :--- | :--- |
+| **Thresh** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/c/c3/Thresh_OriginalSquare.png" width="30"> | ⭐ **Divine** | Engage/Peel | La linterna (W) otorga movilidad. `Lantern + Gravitum Root` = Gank perfecto. |
+| **Milio** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/23/Milio_OriginalSquare.png" width="30"> | 🟢 **S+** | Poke/Buff | Aumenta el Rango de Calibrum exponencialmente. No te podrán tocar en fase de líneas. |
+| **Lulu** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Lulu_OriginalSquare.png" width="30"> | 🟢 **S** | Buff/Protección | El buff de attack speed con Crescendum activo es el DPS más alto del LoL. |
+| **Nautilus** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/d/d2/Nautilus_OriginalSquare.png" width="30"> | 🟢 **S** | Lock-down CC | CC infinito. Cadena: `Nautilus R -> Auto -> Gravitum Root`. Muerte asegurada. |
+| **Braum** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Braum_OriginalSquare.png" width="30"> | 🟡 **A** | Defensa/Defensiva | Intercepta proyectiles clave mientras stackeas Crescendum a corta distancia. |
+| **Soraka** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Soraka_OriginalSquare.png" width="30"> | 🟡 **A** | Sustain Infinito | Te permite tener trades agresivos continuamente. Tu Severum te cura, ella también. |
+| **Nami** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/d/d2/Nami_OriginalSquare.png" width="30"> | 🟡 **A** | Trade Buff | Da velocidad y curación para ganar trades cortos. |
+| **Morgana** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/7/79/Morgana_OriginalSquare.png" width="30"> | 🟡 **A** | Anti-CC | `Black Shield` evita que te frenen si entras con Crescendum a corta distancia. |
+| **Yuumi** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/6/6c/Yuumi_OriginalSquare.png" width="30"> | 🔴 **C** | Afk Buff | Muy débil en early. Te deja vulnerable a ganks y hooks agresivos. |
+| **Brand / Lux** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/7/7a/Lux_OriginalSquare.png" width="30"> | 🔴 **C** | Mage Setup | Roban oro, no aportan peel. Solo sirve si dominas el posicionamiento 100%. |
 
 ---
 
 ## 🧠 4. Macro-Gaming & Kiting (Coach Protocol)
 
-### 🖱️ 4.1. Mecánicas de Kiting (Space Spacing)
-Un Analista LCK prioriza el **Auto-Spacing**:
-1.  **A-Click Technique**: Configura el "Attack Move on Cursor". No hagas click derecho en el enemigo, hazlo en el suelo cerca de él mientras retrocedes. Esto cancela la animación de *Backswing* (levantada de arma) más rápido.
-2.  **Kiting de Rango (Calibrum)**: Mantén al enemigo en la punta de tu rango máximo. Cada vez que el enemigo de un paso adelante, tú das un paso atrás. 
-3.  **Kiting de Proximidad (Crescendum)**: Las cuchillas de Crescendum regresan más rápido cuanto más cerca estés del objetivo. Si estás seguro, **camina hacia adelante** para multiplicar tu DPS.
+### 🖱️ 4.1. Fundamentos de Kiting LCK (Auto-Spacing)
+Un carry de Aphelios debe dominar el margen de golpeo para no recibir daño:
+1.  **A-Click Technique**: Configura el "Attack Move on Cursor". No hagas click derecho en el enemigo, hazlo en el suelo cerca de él mientras retrocedes. Esto cancela la animación de *recoil* (levantar el arma) 0.3s antes.
+2.  **Space Spacing (Calibrum)**: Mantén al enemigo en la punta de tu rango. Si él avanza, tú retrocedes un paso. Mantén la distancia de seguridad.
+3.  **Kiting Inverso (Crescendum)**: Las cuchillas regresan más rápido cuanto más cerca estés. Camina **hacia el enemigo** si estás seguro de ganar el duelo para multiplicar tu daño.
 
-### 🛡️ 4.2. Control de Oleadas y Waves (Laning Theory)
--   **Wave 1 y 2 (Slow Push)**: Solo da Last Hit. Deja que la wave 2 se acumule.
--   **Wave 3 Crash**: Empuja agresivamente para meter la wave 3 bajo la torre enemiga. Esto fuerza un **Cheater Recall** (Back a base).
--   **El Regreso**: Vuelves con una Espada Larga o Botas antes que el rival, obteniendo ventaja de estadísticas sin haber muerto.
+### 🛡️ 4.2. Control de Oleadas (Wave State Controller)
+-   **Wave 1 y 2 (Slow Push)**: Solo das Last Hit. Deja que los minions se acumulen para formar una "Ola Gigante".
+-   **Wave 3 Crash**: Empuja agresivamente con `Infernum` o `Severum Q` para meter la ola bajo la torre enemiga.
+-   **Protocolo Cheater Recall**: Vuelve a base instantáneamente. El rival tendrá que farmear bajo torre y tú volverás con una Espada Larga o Botas sin haber perdido ni un solo minion.
 
 ---
 
 ## 💡 5. Protocolos de Combate (GM Analyst Notes)
 
 > [!CAUTION]
-> **Error Común**: Nunca entres a una pelea de dragón con menos de 10 balas en tu arma principal intentando que "cicle a otra". La transición de arma tiene un Delay de 0.5s donde no puedes auto-atacar.
+> **Error de Munición**: Nunca entres a pelear un dragón con 2 balas en tu arma. Si el arma se gasta en medio del combate, el Delay de la animación de Alune dándote otra es de 0.5s donde no puedes auto-atacar. Te matarán.
 
 > [!IMPORTANT]
-> **Gestión de Weapon order antes de objetivos**: 
-> - Minuto 7: Preparar `Gravitum` + `Infernum` para control de área en el primer Dragón.
-> - Minuto 20+: Preparar `Calibrum` + `Crescendum` para deconstruir Baron Nashor o estructuras.
+> **Gestión de Weapon Order Antes de Objetivos**: 
+> - **Peleas de Río/Dragón**: Prepara `Gravitum` + `Infernum` para zoneo y control de áreas agrupadas.
+> - **Seiges de Baron/Torres**: Prepara `Calibrum` + `Crescendum` para deconstruir estructuras y crear daño zonal seguro.
 
 ---
 
 ## 🛠️ 6. Estructura del Sistema
 
-- [`matchups.json`](./matchups.json): Base de datos en JSON con estadísticas de campeones ampliadas.
-- [`builds.yml`](./builds.yml): Configuraciones de objetos dinámicas.
 - [`scripts/combos.md`](./scripts/combos.md): Manual de mecánicas para el campo de pruebas.
+- [`matchups.json`](./matchups.json) y [`builds.yml`](./builds.yml).
 
 ---
 <p align="center"><i>"The moon will guide us." - Alune</i></p>
