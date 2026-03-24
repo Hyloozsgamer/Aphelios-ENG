@@ -135,7 +135,21 @@ Análisis avanzado de carriles inferiores para el Draft y Control de Fase.
 
 ## 🧠 4. Macro-Gaming & Kiting (Coach Protocol)
 
-### 🖱️ 4.1. Fundamentos de Kiting LCK (Auto-Spacing)
+### 🖱️ 4.1. Estadísticas de Rango y Micro-Posicionamiento (El Alma del Kiting)
+
+La diferencia entre un jugador promedio y un Tier-1 es el **Auto-Spacing** basado en el rango del arma activa y el rol de la secundaria.
+
+| Arma | Rango | Ventaja de Posicionamiento | Sinergia con Secundaria (Micro-Play) |
+| :--- | :---: | :--- | :--- |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/0/00/Aphelios_Calibrum.png" width="25"> **Calibrum** | **650** | **Extremo**. Tienes +100 de rango sobre ADCs normales. Permite dar hit y no recibir (Zoneo). | **Sniper Setup**: Coloca Torretas de `Crescendum Q`. Cada tiro aplica marcas de `Calibrum` que disparas a 3000 de rango. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Aphelios_Severum.png" width="25"> **Severum** | **550** | **Medio**. Otorga velocidad. Durante la Q, puedes moverte libremente para esquivar habilidades rivales. | **Heal & Slow**: Combina con Gravitum. `Severum Q` aplica la pasiva de lentitud de Gravitum a múltiples enemigos a la vez. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4b/Aphelios_Gravitum.png" width="25"> **Gravitum** | **550** | **Medio**. Proyectiles muy lentos. Permite dar el básico y retroceder sabiendo que la Q garantizará el *Root* seguro. | **Disengage**: Úsala tras `Infernum Q`. El daño AOE de Infernum aplica Gravitum a todo el equipo rival para un Stun masivo masivo. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Aphelios_Infernum.png" width="25"> **Infernum** | **550** | **Medio / AOE**. Daño en cono (110% Daño). Posiciónate diagonal a la wave para dar hit al ADC rival tras los minions. | **AOE Burst**: Úsala con Severum. Activa `Severum Q` en minions para limpiar la wave en 1s y curarte el 100% de la vida de un golpe. |
+| <img src="https://static.wikia.nocookie.net/leagueoflegends/images/8/84/Aphelios_Crescendum.png" width="25"> **Crescendum**| **525** | **Corto / Boomerang**. El básico regresa. A MENOR distancia del rival, MAYOR velocidad de ataque (DPS Max). | **DPS Melé**: Combina con Severum Q. Carga Chakrams con la Q de Severum, cambia a Crescendum y haz All-In a corta distancia. |
+
+---
+
+### 🖱️ 4.2. Fundamentos de Kiting LCK (Auto-Spacing)
 Un carry de Aphelios debe dominar el margen de golpeo para no recibir daño:
 1.  **A-Click Technique**: Configura el "Attack Move on Cursor". No hagas click derecho en el enemigo, hazlo en el suelo cerca de él mientras retrocedes. Esto cancela la animación de *recoil* (levantar el arma) 0.3s antes.
 2.  **Space Spacing (Calibrum)**: Mantén al enemigo en la punta de tu rango. Si él avanza, tú retrocedes un paso. Mantén la distancia de seguridad.
