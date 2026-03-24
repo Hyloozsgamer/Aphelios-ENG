@@ -236,7 +236,7 @@ Imagina que tu rango es de **650** (Calibrum) y el de tu rival es de **550** (Xa
   <table border="0">
     <tr>
       <td align="center">
-        <img src="https://static.wikia.nocookie.net/leagueoflegends/images/1/1a/Aphelios_Icon.png" width="40"><br>
+        <img src="https://static.wikia.nocookie.net/leagueoflegends/images/9/92/Aphelios_OriginalSquare.png/revision/latest?cb=20200304070938" width="40" style="border-radius: 50%;"><br>
         <a href="./scripts/combos.md"><b>Manual de Combos</b></a><br>
         <small>Rotaciones y Cancels</small>
       </td>
