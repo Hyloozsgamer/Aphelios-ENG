@@ -54,6 +54,47 @@ El orden de las armas es lo que separa a un usuario de Aphelios de un **System M
     </tr>
   </table>
   <p><i>Sinergia Máxima: Calibrum + Crescendum (Torretas Sniper) | Severum + Crescendum (Chakram Stacking)</i></p>
+
+  <br>
+  <h3>📅 Cronograma Táctico (Weapon Cycle x Minuto)</h3>
+  <table border="1">
+    <tr>
+      <th>Intervalo (Mins)</th>
+      <th>Combo Óptimo</th>
+      <th>Objetivo Clave</th>
+      <th>Directriz del Coach LCK</th>
+    </tr>
+    <tr>
+      <td><b>00:00 - 04:00</b></td>
+      <td><img src="https://static.wikia.nocookie.net/leagueoflegends/images/0/00/Aphelios_Calibrum.png" width="25"> + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Aphelios_Severum.png" width="25"></td>
+      <td>Lvl 2 Spike & Sustain</td>
+      <td>Quemar Severum rápido para obtener Gravitum. Castigar trades cortos con el rango de Calibrum. Evitar peleas all-in nivel 1.</td>
+    </tr>
+    <tr>
+      <td><b>04:00 - 08:00</b></td>
+      <td><img src="https://static.wikia.nocookie.net/leagueoflegends/images/0/00/Aphelios_Calibrum.png" width="25"> + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4b/Aphelios_Gravitum.png" width="25"></td>
+      <td>Setup de Ganks (CC)</td>
+      <td>Ideal para acompañar ganks o disuadir engage enemigo. `Calibrum Q` conectado + `Gravitum Q` es flash o kill.</td>
+    </tr>
+    <tr>
+      <td><b>08:00 - 12:00</b></td>
+      <td><img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Aphelios_Infernum.png" width="25"> + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4b/Aphelios_Gravitum.png" width="25"></td>
+      <td>Voidgrubs & Dragon</td>
+      <td>Control de oleadas masivo. Facilidad para rotar a objetivos neutrales tempranos y aportar CC/Daño AOE en zonas cerradas.</td>
+    </tr>
+    <tr>
+      <td><b>12:00 - 16:00</b></td>
+      <td><img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Aphelios_Infernum.png" width="25"> + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/8/84/Aphelios_Crescendum.png" width="25"></td>
+      <td>Plates & Dives</td>
+      <td>El pico de burst. Para detonar peleas y derretir estructuras. Si logras acumular Chakrams, tu daño DPS es inigualable.</td>
+    </tr>
+    <tr>
+      <td><b>16:00 - 20:00+</b></td>
+      <td><img src="https://static.wikia.nocookie.net/leagueoflegends/images/0/00/Aphelios_Calibrum.png" width="25"> + <img src="https://static.wikia.nocookie.net/leagueoflegends/images/8/84/Aphelios_Crescendum.png" width="25"></td>
+      <td>Baron & Siege</td>
+      <td>Asedio seguro. Torres Sniper con `Crescendum Q` zonearán al rival mientras deconstruyes defensas desde su rango exterior.</td>
+    </tr>
+  </table>
 </div>
 
 ---
