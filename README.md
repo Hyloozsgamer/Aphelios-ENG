@@ -153,20 +153,25 @@ La diferencia entre un jugador promedio y un Tier-1 es el **Auto-Spacing** basad
 
 ---
 
-### 🖱️ 4.2. Fundamentos de Kiting LCK: The Space Gliding Sequence
+#### 🔁 Bucle del Auto-Spacing: Temporización y Cadencia (LCK Tier)
 
-No se trata de clickear rápido, se trata de **ritmo**. Aquí te mostramos la secuencia visual de un **Analista LCK** para dar hit sin recibir:
+"Auto-Spacing" no es solo mover el ratón rápido; es un **ajuste dinámico de distancia basado en el Cooldown de tus básicos**. Si dominas el *tempo*, puedes dar hit y castigar sin que el rival pueda responder.
 
-#### 🔁 Bucle del Auto-Spacing (Dar Hit y Retroceder)
-<p align="center">
-  <img src="https://img.shields.io/badge/PASO%201-A--Click-blueviolet?style=flat-square"> ➡️ 
-  <img src="https://img.shields.io/badge/PASO%202-Disparo%20(Frame%201)-teal?style=flat-square"> ➡️ 
-  <img src="https://img.shields.io/badge/PASO%203-Click%20Suelo%20(Atrás)-red?style=flat-square">
-</p>
+| Intervalo de Tiempo | Acción Mecánica | Estado del Personaje | Directriz del Coach |
+| :--- | :--- | :--- | :--- |
+| **`T = 0.00s`** | `Click Derecho` (Adelante) | Movimiento agresivo. | Acortas distancia solo lo suficiente para entrar en tu rango. |
+| **`T + 0.10s`** | **`A-Click`** (Enemigo) | **Wind-up** (Animación de carga). | **NO MOVER**. Si clickeas el suelo aquí, cancelarás el disparo. |
+| **`T + 0.25s`** | **Impacto del Disparo** | El proyectil **SALE** del arma. | **MOMENTO CRÍTICO**. El daño ya está computado. |
+| **`T + 0.26s`** | **`Click Derecho`** (Atrás) | **Backswing Cancel** | Cortas la animación final. Aphelios inicia la retirada 0.3s antes de lo normal. |
+| **`T + 0.30s - 0.80s`** | `Mantener Movimiento` | Espera de Cooldown (Intervalo). | **Zona de Seguridad**. El rival no puede alcanzarte porque retrocedes. |
 
-1.  **A-Click**: Presionas `A` y Click Derecho en el suelo cerca del enemigo. Aphelios ataca a rango máximo solo.
-2.  **Disparo**: El proyectil sale del arma. En ese exacto milisegundo tu personaje se detiene para disparar.
-3.  **Click Suelo (Atrás)**: Click Derecho hacia atrás instantáneamente. Cancela la animación de *recoil* y empiezas a moverte 0.2s antes de lo normal.
+---
+
+#### 📏 La Dinámica del Auto-Pacing (Gap Control)
+
+Imagina que tu rango es de **650** (Calibrum) y el de tu rival es de **550** (Xayah). Te mueves a **650 u** ➡️ Disparas. Retrocedes a **680 u** durante el intervalo de cooldown. Dado que retrocedes mientras tu ataque se recarga, el rival siempre estará a 130 u de distancia de poder pegarte. Repites el bucle cuando tu básico vuelve a cargar.
+
+---
 
 ---
 
