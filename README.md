@@ -211,10 +211,34 @@ Imagina que tu rango es de **650** (Calibrum) y el de tu rival es de **550** (Xa
 
 ---
 
-### 🛡️ 4.2. Control de Oleadas (Wave State Controller)
+### 🛡️ 4.4. Control de Oleadas | Control de Armas (Gestión de Rotación)
+
+Un Analista LCK combina el estado de los minions con el estado de su munición para dictar la fase de líneas.
+
+#### 📊 Consumo de Munición (Gasto Teórico)
+-   **Ataque Básico**: Consume **1 Bala** 🔹
+-   **Habilidad Principal (`Q`)**: Consume **10 Balas** 🔹 (Usa la Q para acelerar el ciclado de armas si necesitas un swap de emergencia).
+
+---
+
+#### 🔄 Protocolo de Gasto Inicial (Construyendo la Ola de Presión)
+Para activar la **Rotación Apex** (Severum -> Calibrum -> Gravitum...), debes vaciar las armas en este orden estricto de **Niveles 1 a 4**:
+
+| Orden de Gasto | Arma a Vaciar | Acción Táctica | Resultado en Cola |
+| :---: | :--- | :--- | :--- |
+| **1º** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Aphelios_Severum.png" width="20"> **Severum** | Gasta balas en Wave 1/2 para empujar o curar Poke. | Entra <img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4b/Aphelios_Gravitum.png" width="18"> **Gravitum**. |
+| **2º** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/0/00/Aphelios_Calibrum.png" width="20"> **Calibrum** | Úsala para castigar el Last Hit del rival. Vacíala. | Entra <img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Aphelios_Infernum.png" width="18"> **Infernum**. |
+| **3º** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/4/4b/Aphelios_Gravitum.png" width="20"> **Gravitum** | Lanza `Q` para rootear y vaciar de forma segura. | Entra <img src="https://static.wikia.nocookie.net/leagueoflegends/images/8/84/Aphelios_Crescendum.png" width="18"> **Crescendum**. |
+| **4º** | <img src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Aphelios_Infernum.png" width="20"> **Infernum** | Limpia la wave 3 agresivamente para el Crash. | Regresa <img src="https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Aphelios_Severum.png" width="18"> **Severum**. |
+
+*Resultado*: Te quedas con **Crescendum** + **Severum** para un DPS y Burst exagerado listo para el primer duelo de dragón o gank aliado.
+
+---
+
+#### 🛡️ Control de Oleadas (Wave State Control)
 -   **Wave 1 y 2 (Slow Push)**: Solo das Last Hit. Deja que los minions se acumulen para formar una "Ola Gigante".
--   **Wave 3 Crash**: Empuja agresivamente con `Infernum` o `Severum Q` para meter la ola bajo la torre enemiga.
--   **Protocolo Cheater Recall**: Vuelve a base instantáneamente. El rival tendrá que farmear bajo torre y tú volverás con una Espada Larga o Botas sin haber perdido ni un solo minion.
+-   **Wave 3 Crash (Vaciando Infernum)**: Empuja de golpe con `Infernum` para meter la ola bajo la torre enemiga.
+-   **Protocolo Cheater Recall**: Vuelve a base instantáneamente. El rival tendrá que farmear bajo torre y tú volverás con una Espada Larga intacta para ganar estadísticas.
 
 ---
 
