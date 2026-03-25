@@ -7,6 +7,7 @@
       "support_synergy": ["Milio", "Lulu", "Yuumi"],
       "win_rate": 51.5,
       "micro_strategy": "Punish early game with Calibrum range advantage. Gravitum to cancel her R/E in teamfights.",
+      "recommended_build": "Burst Assassination",
       "counters": {
         "early": "Abuse range with Calibrum",
         "mid": "Infernum R on clustered targets",
@@ -20,6 +21,7 @@
       "support_synergy": ["Thresh", "Nautilus", "Blitzcrank"],
       "win_rate": 48.2,
       "micro_strategy": "Scales equally well. Infernum R in teamfights wins the fight alone if grouped.",
+      "recommended_build": "Hyper Critical",
       "counters": {
         "early": "Short trade with Severum Q",
         "mid": "Crescendum stack if dive attempt",
@@ -33,6 +35,7 @@
       "support_synergy": ["Pyke", "Leona", "Nautilus"],
       "win_rate": 45.0,
       "micro_strategy": "MAXIMUM DANGER. Survive with Severum for sustain. Do not trade before level 6.",
+      "recommended_build": "DPS Sustained (Armor)",
       "counters": {
         "early": "Safe farm under turret, don't die",
         "mid": "Gravitum gank set-up",
@@ -46,6 +49,7 @@
       "support_synergy": ["Karma", "Bard", "Lux"],
       "win_rate": 53.8,
       "micro_strategy": "Calm lane. Stack Crescendum behind minions and force dives.",
+      "recommended_build": "Spellblade Burst",
       "counters": {
         "early": "Push wave to force Qs into minions",
         "mid": "Gravitum to break his E",
@@ -59,6 +63,7 @@
       "support_synergy": ["Nami", "Milio", "Braum"],
       "win_rate": 47.5,
       "micro_strategy": "Burst Alert. Maintain distance with Calibrum. Gravitum to repel his Dash (E).",
+      "recommended_build": "Anti-Burst Critical",
       "counters": {
         "early": "Avoid 2v2 trades at level 2",
         "mid": "Drop Gravitum Root if uses E aggressively",
@@ -72,6 +77,7 @@
       "support_synergy": ["Nautilus", "Leona", "Rell"],
       "win_rate": 50.1,
       "micro_strategy": "Avoid isolated short trades due to passive. Infernum punishes if hides in minions.",
+      "recommended_build": "Hyper Mobility",
       "counters": {
         "early": "Push with Infernum to deny range",
         "mid": "Gravitum to kite her R dive",
@@ -85,6 +91,7 @@
       "support_synergy": ["Nautilus", "Rell", "Thresh"],
       "win_rate": 49.3,
       "micro_strategy": "Save Gravitum Q. Interrupt her ultimate instantly. Never waste Infernum R inside her W (Blade Whirl).",
+      "recommended_build": "Anti-Tank DPS",
       "counters": {
         "early": "Poke with Calibrum without missing abilities",
         "mid": "Root with Gravitum before she jumps",
@@ -98,6 +105,7 @@
       "support_synergy": ["Lux", "Morgana", "Karma"],
       "win_rate": 48.7,
       "micro_strategy": "She will outrange you. Use Calibrum to reply Poke. Severum to heal from traps.",
+      "recommended_build": "Anti-Magic DPS",
       "counters": {
         "early": "Do not let her push you under turret",
         "mid": "Infernum for fast wave clear",
@@ -111,6 +119,7 @@
       "support_synergy": ["Milio", "Lulu", "Karma"],
       "win_rate": 50.8,
       "micro_strategy": "Kiteable. Beware of her R (Arrow). Use Cleanse or Gravitum to respond CC.",
+      "recommended_build": "Hyper Mobility",
       "counters": {
         "early": "Try dodging W behind minions",
         "mid": "Gravitum set-up for ganks",
